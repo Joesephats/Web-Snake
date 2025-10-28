@@ -1,0 +1,45 @@
+# ==========================
+# PYTHON BASICS
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# ==========================
+# ENVIRONMENT
+# ==========================
+venv/
+.env/
+.venv/
+
+# ==========================
+# DJANGO
+# ==========================
+db.sqlite3
+*.log
+staticfiles/
+
+# ==========================
+# PYGBAG / BUILD OUTPUTS
+# ==========================
+build/
+dist/
+webbuild/
+.webbuild/
+*.wasm
+*.js.map
+
+# Ignore compiled pygbag output inside static/js
+static/js/*
+!static/js/.gitkeep
+
+# ==========================
+# EDITORS / OS
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
